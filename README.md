@@ -8,31 +8,33 @@ JDK 15.0.x (tested on 15.0.1 and 15.0.2)
 MySQL 8.0  
 Maven 3.9.6 (tested on 3.9.6 and 3.8.6)
 ## Frameworks
-Spring Boot 2.0.1 
+Spring Boot 2.0.1  
 MyBatis
 ## Installation
 Originally, we planned to deploy the app on Heroku, but since now Heroku is not permanently free we can only ask our users to deploy and test the app locally.  
   
 To host the app on your local machine, please follow the procedures below: 
 1. Create a MySQL database, run the school_record.sql file to create the tables into your database.
+   
 2. Open the application.yml file and replace the db url, username and password with your own.
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/5dedfe12-f112-4ccc-b988-8c335c61ad64)  
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/6dd3efba-17ad-4dcf-b1ec-87f665752d45)
-![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/48df92bb-aa9f-4ac8-8214-2a72f90c4690)  
+![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/48df92bb-aa9f-4ac8-8214-2a72f90c4690)
+  
 3. Run StudentmanagerApplication.java.
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/ba4762dc-9973-4b34-87c2-6363c4b1a48e)
+  
 4. Open your browser and go to localhost:8080.
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/8991c775-288f-4f1c-a00a-677d271fade1)
 
-
-
+  
 You can log in to the system by using the default credentials.
 | User Type      | Account        | Password       |
 |:---------------|:---------------|:---------------|
 |Admin           |admin           |admin           |
 |Teaching Staff  |jauyeung        |jauyeung123     |
-|Student         |s1000000        |12345678        |
-
+|Student         |s1000000        |12345678        |  
+  
 To create your own testing account, you can insert a pair of username and password into the database by yourself. 
 ## Problems to be fixed
 1. Wrong constraints on email and phone number leading to errors when trying to modify the two attributes. 
