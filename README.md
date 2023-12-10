@@ -1,10 +1,10 @@
 # Academic Record Management System
 System developed by group 17
 ## Development environments
-Windows 10
-Tomcat 8.5.29
-JDK 15.0.x (tested on 15.0.1 and 15.0.2)
-Spring Boot 2.0.1
+Windows 10  
+Tomcat 8.5.29  
+JDK 15.0.x (tested on 15.0.1 and 15.0.2)  
+Spring Boot 2.0.1  
 ## IDE used
 VS Code
 ## Installation
