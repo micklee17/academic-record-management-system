@@ -38,7 +38,7 @@ You can log in to the system by using the default credentials.
   
 To create your own testing account, you can insert a pair of username and password into the database by yourself. 
 
-Feel free to let us know if you encounter any problem deploying the app.
+Feel free to let us know if you encounter any problems deploying the app.
 ## Problems to be fixed
 1. Wrong constraints on email and phone number leading to errors when trying to modify the two attributes. 
 2. Admin can set student username that doesn't match that student's SID (i.e., studentID of a student is 12345678, his/her username should be s1234567, but admin can set it to s9999999 for example).
