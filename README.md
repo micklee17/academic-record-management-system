@@ -5,6 +5,7 @@ Windows 10
 Tomcat 8.5.29  
 JDK 15.0.x (tested on 15.0.1 and 15.0.2)  
 Spring Boot 2.0.1  
+MySQL 8.0
 MAVEN
 ## IDE used
 VS Code
