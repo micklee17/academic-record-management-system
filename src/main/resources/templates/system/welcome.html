@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+
+<div th:fragment="welcome">
+	<div title="Welcome" style="padding:20px;overflow:hidden; color:red; ">
+		<p style="font-size: 50px; line-height: 60px; height: 60px;" th:if="${session.usertype == '1'}" th:text="${session.admin.username}"></p>
+		<p style="font-size: 50px; line-height: 60px; height: 60px;" th:if="${session.usertype == '2'}" th:text="${session.student.sn}"></p>
+		<p style="font-size: 50px; line-height: 60px; height: 60px;" th:if="${session.usertype == '3'}" th:text="${session.teacher.sn}"></p>
+		<p style="font-size: 25px; line-height: 30px; height: 30px;">Welcome to the Academic Record Management System</p>
+		<p>Developer：Group 17</p>
+
+		<hr />
+		<h2>Hong Kong Metropolitan University</h2>
+		<p>School of Science and Technology</p>
+	</div>
+</div>
+</body>
+</html>
