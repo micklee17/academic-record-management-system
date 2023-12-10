@@ -14,9 +14,14 @@ MyBatis
 Originally, we planned to deploy the app on Heroku, but since now Heroku is not permanently free we can only ask our users to deploy and test the app locally.  
   
 To host the app on your local machine, please follow the procedures below: 
-1. Run sql file    
-2. ...
-3.     
+1. Create a MySQL database, run the school_record.sql file to create the tables into your database.
+2. Open the application.yml file and replace the db url, username and password with your own. 
+  ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/5dedfe12-f112-4ccc-b988-8c335c61ad64)  
+![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/6dd3efba-17ad-4dcf-b1ec-87f665752d45)  
+![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/cb5a3708-6191-4e40-921f-09402788e033)
+
+
+4.     
 
 You can log in to the system by using the default credentials
 | User Type      | Account        | Password       |
