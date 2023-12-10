@@ -21,6 +21,8 @@ You can log in to the system by using the default credentials
 |Admin           |admin           |admin           |
 |Teaching Staff  |jauyeung        |jauyeung123     |
 |Student         |s1000000        |12345678        |
+
+To create your own testing account, you can insert a pair of username and password into the database by yourself. 
 ## Problems to be fixed
 1. Phone number could not be added to personal information correctly
 2. Email could not be added to personal information correctly.
