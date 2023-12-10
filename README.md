@@ -15,13 +15,15 @@ Originally, we planned to deploy the app on Heroku, but since now Heroku is not 
   
 To host the app on your local machine, please follow the procedures below: 
 1. Create a MySQL database, run the school_record.sql file to create the tables into your database.
-2. Open the application.yml file and replace the db url, username and password with your own. 
+2. Open the application.yml file and replace the db url, username and password with your own.
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/5dedfe12-f112-4ccc-b988-8c335c61ad64)  
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/6dd3efba-17ad-4dcf-b1ec-87f665752d45)
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/48df92bb-aa9f-4ac8-8214-2a72f90c4690)  
 3. Run StudentmanagerApplication.java
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/ba4762dc-9973-4b34-87c2-6363c4b1a48e)
-4. Open your browser and go to localhost:8080  
+4. Open your browser and go to localhost:8080
+![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/8991c775-288f-4f1c-a00a-677d271fade1)
+
 
 
 You can log in to the system by using the default credentials
