@@ -2,13 +2,14 @@
 System developed by group 17
 ## Development environments
 Windows 10  
+VS Code  
 Tomcat 8.5.29  
 JDK 15.0.x (tested on 15.0.1 and 15.0.2)  
-Spring Boot 2.0.1  
 MySQL 8.0  
-MAVEN
-## IDE used
-VS Code
+Maven 3.9.6 (tested on 3.9.6 and 3.8.6)
+## Frameworks
+Spring Boot 2.0.1 
+MyBatis
 ## Installation
 Originally, we planned to deploy the app on Heroku, but since now Heroku is not permanently free we can only ask our users to deploy and test the app locally.  
   
