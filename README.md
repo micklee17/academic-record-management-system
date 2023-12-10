@@ -1,5 +1,5 @@
 # Academic Record Management System
-System developed by group 17
+System modified by group 17
 ## Development environments
 Windows 10  
 VS Code  
