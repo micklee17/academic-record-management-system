@@ -9,6 +9,8 @@ MAVEN
 ## IDE used
 VS Code
 ## Installation
+Originally, we planned to deploy the app on Heroku, but since now Heroku is not permanently free we can only ask our users to deploy and test the app locally.  
+  
 To host the app on your local machine, please follow the procedures below: 
 1. Run sql file    
 2. ...
