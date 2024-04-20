@@ -19,7 +19,8 @@ To host the app on your local machine, please follow the procedures below:
 2. Open the application.yml file and replace the db url, username and password with your own.
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/5dedfe12-f112-4ccc-b988-8c335c61ad64)  
 ![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/6dd3efba-17ad-4dcf-b1ec-87f665752d45)
-![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/7e6c4448-aa9c-46d0-b8fb-d58f86a9c3c2)
+![image](https://github.com/micklee17/academic-record-management-system/assets/104964040/661bc5a5-bb22-4ecf-bf5a-facb5b502904)
+
 
   
 3. Run StudentmanagerApplication.java.
