@@ -1,5 +1,5 @@
 # Academic Record Management System
-A school project, modifed based on system in description.
+A school project, modifed based on system in the description.
 ## Development environments
 Windows 10  
 VS Code  
